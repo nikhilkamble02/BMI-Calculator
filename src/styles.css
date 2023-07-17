@@ -1,0 +1,73 @@
+/* .App {
+  font-family: sans-serif;
+ 
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.App {
+  text-align: center;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.container {
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+  background-color: rgb(253, 243, 243);
+  box-shadow: -9px -25px 16px -27px rgba(0, 0, 0, 0.45),
+    25px 0px 20px -27px rgba(0, 0, 0, 0.45),
+    0px 25px 20px -27px rgba(0, 0, 0, 0.45),
+    -25px 0px 20px -27px rgba(0, 0, 0, 0.45);
+  width: 30vw;
+  height: 55vh;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.weight,
+.height {
+  display: flex;
+  column-gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: skyblue;
+}
+button:hover {
+  cursor: pointer;
+}
+
+input {
+  width: 7rem;
+  height: 3rem;
+  text-align: center;
+  font-size: large;
+}
+
+h1 {
+  padding-top: 1rem;
+}
