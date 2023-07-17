@@ -1,2 +1,2 @@
 # BMI-Calculator
-Created with CodeSandbox
+Body Mass Index (BMI) calculator 
