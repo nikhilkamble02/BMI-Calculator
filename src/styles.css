@@ -20,7 +20,7 @@
   height: 70vh;
 }
 .container {
-  /* border: 1px solid green; */
+/*   border: 1px solid green; */
   display: flex;
   flex-direction: column;
   row-gap: 3rem;
