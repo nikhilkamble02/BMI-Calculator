@@ -38,7 +38,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>BMI Calculator</h1>
+        <h1>BMI Calculator using React</h1>
         <div>
           <form>
             <div className="weight">
